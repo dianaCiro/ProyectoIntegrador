@@ -1,0 +1,23 @@
+.navbar {
+  background-color: green;
+  background: transparent;
+  border-color: transparent;
+}
+
+header{
+  background: "#18BC9C";
+}
+
+.navbar li {
+  color: #000
+}
+
+
+
+
+body {
+  background : url(/assets/img/receta2.jpg);  background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+      background-size: cover;
+    }

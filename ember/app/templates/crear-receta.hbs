@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="{{rootURL}}assets/css/stylesCustom.css">
+<div align="center">
+<div>
+  <h1>Crear nueva receta<small></small></h1>
+</div >
+<hr>
+
+<form id ="form-create"class="form-horizontal"{{action 'updateSystem' on="submit"}} >
+  <fieldset>
+     <div class="form-group">
+        <label for="" class="col-sm-4 control-label" >Nombre de la receta</label>
+        <div class="col-sm-4">
+       {{input  placeholder="Arroz con coco, sudado, ensalada griega ..." class="form-control" value=receta.name}}
+       </div>
+    </div>
+    <div class="form-group">
+       <label for="" class="col-sm-4 control-label">Nombre</label>
+       <div class="col-sm-4">
+        {{input  placeholder="Se debe de cocinar hasta que ..." class="form-control" value=receta.preparacion }}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="" class="col-sm-4 control-label">Dificultad</label>
+         <div class="col-sm-4">
+        {{input placeholder="Avanzado, medio o principiante" class="form-control" value=receta.dificultad }}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="" class="col-sm-4 control-label">Enfermedad</label>
+        <div class="col-sm-4">
+       {{input placeholder="Diabetes, tiroides, colesterol ..." class="form-control" value=receta.enfermedad }}
+       </div>
+     </div>
+     <div class="form-group">
+       <label for="" class="col-sm-4 control-label">Etapa</label>
+       <div class="col-sm-4">
+       {{input placeholder="0-5, 6-10, 10-20 ..." class="form-control" value=receta.etapa }}
+       </div>
+    </div>
+    <div class="form-group">
+        <label for="" class="col-sm-4 control-label">Imagen</label>
+        <div class="col-sm-4">
+        {{input placeholder="URL" class="form-control" value=receta.imagen }}
+        </div>
+    </div>
+      <button id="btnIndex" class=" btn btn-lg" {{action 'new'}}>Registrar</button>
+  </fieldset>
+
+
+</form>
+</div>
+
+
+{{outlet}}

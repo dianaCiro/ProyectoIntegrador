@@ -1,0 +1,72 @@
+.navbar .nav > li > a {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  color: #000;
+  font-weight: 700;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+text-transform: uppercase;
+}
+
+header {
+  background: "#18BC9C";
+}
+
+.navbar li {
+  color: #000
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.1;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  color: #968989;
+  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+}
+
+hr {
+  border-color: #F05F40;
+  border-width: 3px;
+  max-width: 50px;
+  color: #F05F40;
+  margin: 30px auto;
+}
+
+body {
+  background: url(/assets/img/receta2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#btnIndex {
+  color: #fff;
+  border-radius: 300px;
+  font-weight: 700;
+  background-color: #ee4b28;
+  border-color: #ed431f;
+  padding: 15px 30px;
+}
+
+label{
+color:white;
+font-weight: 700;
+text-transform: uppercase;
+}
