@@ -37,7 +37,17 @@ module.exports.routes = {
   },
   'GET /recetas':{
     controller:'RecetaController', action:'find'
+  },
+  'GET /productoPorRecetas':{
+    controller:"ProductoPorRecetaController", action:'find'
+  },
+  'POST /recetas': {
+    controller:'RecetaController', action:'create'
+  },
+  'POST /productoPorRecetas': {
+    controller:'ProductoPorRecetaController', action:'create'
   }
+  
 
   /***************************************************************************
   *                                                                          *
