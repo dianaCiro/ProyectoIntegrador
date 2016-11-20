@@ -35,17 +35,23 @@ module.exports.routes = {
   '/': {
     view: 'homepage'
   },
-  'GET /recetas':{
+  'GET /receta':{
     controller:'RecetaController', action:'find'
   },
   'GET /productoPorRecetas':{
     controller:"ProductoPorRecetaController", action:'find'
   },
-  'POST /recetas': {
+  'GET /producto':{
+    controller:"ProductoController", action:'find'
+  },
+  'POST /receta': {
     controller:'RecetaController', action:'create'
   },
   'POST /productoPorRecetas': {
     controller:'ProductoPorRecetaController', action:'create'
+  },
+  'POST /producto': {
+    controller:'ProductoController', action:'create'
   }
   
 
