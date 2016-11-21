@@ -38,7 +38,7 @@ module.exports.routes = {
   'GET /receta':{
     controller:'RecetaController', action:'find'
   },
-  'GET /productoPorRecetas':{
+  'GET /ppreceta':{
     controller:"ProductoPorRecetaController", action:'find'
   },
   'GET /producto':{
@@ -47,7 +47,7 @@ module.exports.routes = {
   'POST /receta': {
     controller:'RecetaController', action:'create'
   },
-  'POST /productoPorRecetas': {
+  'POST /productopreceta': {
     controller:'ProductoPorRecetaController', action:'create'
   },
   'POST /producto': {
